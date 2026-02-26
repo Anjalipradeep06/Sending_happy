@@ -45,16 +45,19 @@
     display: flex;
     gap: 20px;
     list-style: none;
+    font-family: poppins;
 }
 
 .list-1 ul {
     display: flex;
     gap: 20px;
     list-style: none;
+    font-family: poppins;
 }
 
 .list {
     display: none;
+    font-family: poppins;
 }
 
 .menu {
@@ -149,28 +152,90 @@ div.web-images {
     gap: 14px;
     padding-bottom: 10%;
     position: relative;
-    
+
 }
 
-div.web-images img {
-    width: 268px;
-    /* display: block; */
-    
+.sub1 img {
+    width: 269px;
+    height: 317.98px;
 }
 
+.sub2 img {
+    width: 269px;
+    height: 317.98px;
+}
 
-.image-text {
+.sub3 img {
+    width: 269px;
+    height: 317.98px;
+}
+
+.sub4 img {
+    width: 269px;
+    height: 319.98px;
+}
+
+.image-text1 {
     position: relative;
-    text-align: center;
-    width: 262px;
-    bottom: 60px;
+    text-align: start;
+    padding-left: 2;
+    width: 266px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+}
+
+.image-text2 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 266px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+
+}
+
+.image-text3 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 266px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+}
+
+.image-text4 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 260px;
+    bottom: 56px;
     left: 3;
     color: white;
     font-size: 20px;
     font-weight: bold;
-     height: 45px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),transparent);
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
 }
+
 
 .footer {
     background-color: FFF4E6;
@@ -226,6 +291,7 @@ div.web-images img {
 
     .menu {
         width: 25px;
+
     }
 
 
@@ -255,17 +321,17 @@ div.web-images img {
         gap: 72px;
 
     }
-    
-.section2 {
-    font-family: poppins;
-    display: flex;
-    margin: 0;
-    line-height: 1.5;
-    flex-direction: column;
-    padding-left: 10%;
+
+    .section2 {
+        font-family: poppins;
+        display: flex;
+        margin: 0;
+        line-height: 1.5;
+        flex-direction: column;
+        padding-left: 10%;
 
 
-}
+    }
 
     .content {
         width: 700px;
@@ -282,23 +348,88 @@ div.web-images img {
         padding-bottom: 10%;
     }
 
-    div.web-images img {
-        width: 700px;
-        
-    }
-       
-.image-text {
+     
+.sub1 img {
+    width: 700px;
+    height: auto;
+}
+
+.sub2 img {
+    width: 700px;
+    height:auto;
+}
+
+.sub3 img {
+    width: 700px;
+    height:auto;
+}
+
+.sub4 img {
+    width: 700px;
+    height: auto;
+}
+
+.image-text1 {
     position: relative;
-    text-align: center;
-    width: 684px;
-    bottom: 60px;
-    left: 6;
+    text-align: start;
+    padding-left: 2;
+    width: 697px;
+    bottom: 54px;
+    left: 0;
     color: white;
     font-size: 20px;
     font-weight: bold;
-     height: 45px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),transparent);
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
 }
+
+.image-text2 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 697px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+
+}
+
+.image-text3 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 697px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+}
+
+.image-text4 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 680px;
+    bottom: 68px;
+    left: 8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+}
+
 
 }
 
@@ -324,7 +455,7 @@ div.web-images img {
         cursor: pointer;
     }
 
-  
+
     .list .dropdown {
         position: relative;
     }
@@ -362,7 +493,7 @@ div.web-images img {
         position: absolute;
         top: 54px;
         right: -78px;
-        width: 90px;
+        width: 100px;
         background-color: white;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         padding: 10px 12px;
@@ -381,22 +512,103 @@ div.web-images img {
         width: 400px;
 
     }
-
+/* 
     div.web-images img {
         width: 400px;
-    }
-    
-.image-text {
+    } */
+
+         
+.sub1 img {
+    width: 400px;
+    height: auto;
+}
+
+.sub2 img {
+    width: 400px;
+    height:auto;
+}
+
+.sub3 img {
+    width: 400px;
+    height:auto;
+}
+
+.sub4 img {
+    width: 400px;
+    height: auto;
+}
+
+.image-text1 {
     position: relative;
-    text-align: center;
-    width: 392px;
-    bottom: 60px;
-    left: 3;
+    text-align: start;
+    padding-left: 2;
+    width: 396px;
+    bottom: 54px;
+    left: 0;
     color: white;
     font-size: 20px;
     font-weight: bold;
-     height: 45px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),transparent);
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
 }
+
+.image-text2 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 396px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+
+}
+
+.image-text3 {
+    position: relative;
+    text-align: start;
+    padding-left: 2;
+    width: 396px;
+    bottom: 54px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+}
+
+.image-text4 {
+    position: relative;
+    text-align: start;
+    padding-left: 3;
+    width: 385px;
+    bottom: 68px;
+    left: 5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+}
+    .image-text {
+        position: relative;
+        text-align: center;
+        width: 385px;
+        bottom: 60px;
+        left: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        height: 45px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    }
 
 }
