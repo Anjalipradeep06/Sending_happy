@@ -1,0 +1,402 @@
+/* ----------Styling---------- */
+
+/* fonts poppins  */
+@font-face {
+    font-family: poppins;
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* @font-face {
+    font-family: poppinsbold;
+    src: url(../Fonts/Poppins/poppinsbold.ttf);
+}
+
+@font-face {
+    font-family: poppinssemibold;
+    src: url(../Fonts/Poppins/poppinssemibold.ttf);
+} */
+
+/* ================================== */
+
+/* * {
+    font-family: poppins;
+    box-sizing: border-box;
+} */
+
+
+.header {
+
+    background-color: FFF4E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+
+
+}
+
+
+
+.list ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.list-1 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.list {
+    display: none;
+}
+
+.menu {
+    width: 50px;
+
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 8%;
+    gap: 72px;
+
+}
+
+.ayurveda {
+    width: 50%;
+    font-family: poppins;
+
+}
+
+.lorem {
+    font-size: 16px;
+    width: 551px;
+}
+
+h1 {
+    margin: 0;
+    line-height: 1;
+
+}
+
+.image3 {
+    width: 50%;
+    height: 404px;
+}
+
+.image3 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.button {
+    background-color: 42C2B2;
+    padding: 10;
+    border-radius: 8px;
+    border-color: FAF9F6;
+    width: 200px;
+    height: 60px;
+    color: FAF9F6;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+
+.section2 {
+    font-family: poppins;
+    display: flex;
+    margin: 0;
+    line-height: 1.5;
+    flex-direction: column;
+    padding-left: 13%;
+    padding-right: 10%;
+
+
+}
+
+.content {
+    width: 925px;
+}
+
+h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+/* h2:hover{
+    background-color: red;
+} */
+
+
+
+div.web-images {
+    display: flex;
+    width: 100px !important;
+    gap: 14px;
+    padding-bottom: 10%;
+    position: relative;
+    
+}
+
+div.web-images img {
+    width: 268px;
+    /* display: block; */
+    
+}
+
+
+.image-text {
+    position: relative;
+    text-align: center;
+    width: 262px;
+    bottom: 60px;
+    left: 3;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+     height: 45px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),transparent);
+}
+
+.footer {
+    background-color: FFF4E6;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.icon {
+    width: 37px;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.media {
+    width: 12px;
+    height: 18px;
+}
+
+.media img {
+    width: 100%;
+    height: 100%;
+}
+
+.ayurveda h1 {
+    font-size: 86.41px;
+
+}
+
+/* responsive desing */
+
+@media screen and (max-width: 922px) {
+
+    .menu {
+        width: 25px;
+    }
+
+
+    .ayurveda h1 {
+        font-size: 86.41px;
+
+    }
+
+    .lorem {
+        font-size: 16px;
+        width: 700px;
+
+    }
+
+    .image3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sections {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        padding-top: 8%;
+        padding-left: 10%;
+        padding-bottom: 8%;
+        gap: 72px;
+
+    }
+    
+.section2 {
+    font-family: poppins;
+    display: flex;
+    margin: 0;
+    line-height: 1.5;
+    flex-direction: column;
+    padding-left: 10%;
+
+
+}
+
+    .content {
+        width: 700px;
+    }
+
+
+
+    div.web-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100px !important;
+        gap: 14px;
+        padding-bottom: 10%;
+    }
+
+    div.web-images img {
+        width: 700px;
+        
+    }
+       
+.image-text {
+    position: relative;
+    text-align: center;
+    width: 684px;
+    bottom: 60px;
+    left: 6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+     height: 45px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),transparent);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .ayurveda h1 {
+        font-size: 50.41px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .menu {
+        cursor: pointer;
+    }
+
+  
+    .list .dropdown {
+        position: relative;
+    }
+
+    .list ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+
+    /* SHOW MENU ON HOVER */
+    .list .dropdown:hover ul {
+        display: flex;
+    }
+
+
+    .list {
+        display: block;
+    }
+
+    .list-1 {
+        display: none;
+    }
+
+
+    .list ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 54px;
+        right: -78px;
+        width: 90px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 10px 12px;
+
+
+
+
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    .lorem {
+        font-size: 16px;
+        width: 400px;
+
+    }
+
+    div.web-images img {
+        width: 400px;
+    }
+    
+.image-text {
+    position: relative;
+    text-align: center;
+    width: 392px;
+    bottom: 60px;
+    left: 3;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+     height: 45px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8),transparent);
+}
+
+}
